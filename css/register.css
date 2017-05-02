@@ -1,0 +1,17 @@
+body{background-color:#f5f5f5;font-family:"微软雅黑";font-size:12px;}
+a{color:#668686;}
+
+.regContent{width: 938px;padding:55px 20px;border: 1px solid #dadada;margin:0 auto;background-color: #fff;border-radius:3px;overflow: hidden;}
+.regForm{width:700px;border-right: 1px dashed #d2d2d2;}
+.regForm .input .txtUser,.txtPwd,.txtRpwd{color:red;display:none;}
+.regForm .input{margin-bottom: 28px;/*margin-left: 20px;*/}
+.regForm .input.i2{margin-bottom: 20px;}
+.regForm .input label{text-align:right;display:inline-block;width:80px;margin-right:3px;}
+.regForm .input input{width: 285px;height:36px;border:1px solid #DADADA;padding-left:5px;}
+.regForm .check,.regForm .submit{width: 290px;padding-left:80px;}
+.regForm .submit{margin-top:10px;}
+.regForm .submit>input{width: 292px;height: 40px;font-size:16px;display: block;color: #fff;background: #0487df;border-radius: 3px;text-align: center;line-height: 40px;}
+
+.regRight{padding-left:30px;}
+.regRight p{margin: 10px 0px;}
+.regRight a{display:inline-block;width:100px;height:25px;background: url('../img/common/login.png') no-repeat -118px top;line-height:25px;text-align: center;color:#fff;margin-left:5px;}

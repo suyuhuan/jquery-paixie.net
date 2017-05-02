@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/cart.css">
+</head>
+<body>
+	<div id="header">
+		<div class="cartTop">
+			<a href="./index.html" class="logo"></a>
+			<div class="topR fr">
+				<p class="fr">
+					<span>您好,欢迎来拍鞋网!</span>
+					<a href="./login.html">[登录]</a>
+					<a href="./register.html">[注册]</a>
+				</p>
+				<p class="flow fr">
+					<span>1.选择商品</span>
+					<span>2.确认订单信息</span>
+					<span>3.成功提交订单</span>
+				</p>
+		   </div>
+		</div>
+	</div>
+	<div id="main">
+		<div class="cartContent">
+			<div class="shop">
+				<strong>我的购物车</strong>
+				<span class="ft">1/50</span>
+				<span>您购物车的商品将被永久保存</span>
+				<p class="fr">商品价格请以订单提交时为准</p>
+			</div>
+			<div class="catbox">
+				<table id="cartTable">
+					<thead>
+						<tr id="good-list-head">
+							<th class="checkbox ">
+								<label>
+								<input class="check-all check" type="checkbox"/>全选</label>
+							</th>
+							<th class="goods">商品</th>
+							<th>单价</th>
+							<th>数量</th>
+							<th class="price">小计</th>
+							<th class="operation">操作</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						 <tr id="area_goods">
+							<td class="checkbox"><input class="check-one check" type="checkbox"/></td>
+							<td class="goods">
+								<img src="../img/index/F101.jpg" alt=""/>
+								<span>康踏男子低帮系带减震轻质跑</span>
+							</td>
+							<td align="center">149.00</td>
+							<td class="count">
+								<span class="reduce"></span><input class="count-input" type="text" value="1"/><span class="add">+</span>
+							</td>
+							<td class="price">149.00</td>
+							<td class="operation"><span class="delete">删除</span></td>
+						</tr>
+					</tbody>
+				</table>		
+     			<div class="foot" id="foot">
+
+					<label class="fl select-all"><input type="checkbox" class="check-all check"/>&nbsp;全选</label>
+
+					<a class="fl delete" id="deleteAll" href="javascript:;">删除选中商品</a>
+					<a class="fl delete" id="deleteAll" href="./index.html">继续购物</a>
+					<a class="fl delete" id="deleteAll" href="javascript:;">清空购物车</a>
+
+					<div class="fr closing">结 算</div>
+
+					<div class="fr total">合计：￥<span id="priceTotal">0.00</span></div>
+
+					<div class="fr selected" id="selected">
+						已选商品<span id="selectedTotal">0</span>件<span class="arrow up">︽</span><span class="arrow down">︾</span>
+					</div>
+
+					<div class="selected-view">
+
+						<div id="selectedViewList" class="clearfix">
+
+							<div><span>取消选择</span></div>
+
+						</div>
+						<span class="arrow">◆<span>◆</span></span>
+					</div>
+				</div>
+	        </div>  
+
+		</div>
+	</div>
+	<div id="footer">
+		<div class="cartFooter">
+			<dl>
+				<dt><h3>关于运费</h3></dt>
+				<dd>拍鞋自营满129元免费</dd>
+				<dd><a href="#">更多运费信息</a></dd>
+			</dl>
+			<dl>
+				<dt><h3>退换货政策</h3></dt>
+				<dd>拍鞋网提供15天无理由免邮退换货服务</dd>
+				<dd><a href="#">查看具体信息</a></dd>
+			</dl>
+			<dl>
+				<dt><h3>客户服务</h3></dt>
+				<dd>需要帮助?请拨打<span>4008-81-82-83</span></dd>
+				<dd>服务时间8:00-23:00</dd>
+			</dl>
+		</div>
+	</div>
+	<script src="../lib/jquery-1.12.3.js"></script>
+	<script src="../lib/jquery.cookie.js"></script>
+	<script src="../lib/jquery.Spinner.js"></script>
+	<script src="../lib/TweenMax.js"></script>
+	<script src="../js/common.js"></script>
+	<script>
+//		loadHtml("common/hearder.html", "header2");
+//		loadHtml("common/footer.html", "footer2");
+		// $.ajax({
+		// 	url: "common/hearder.html",
+		// 	dataType: "html",
+		// 	async: false,
+		// 	success: function(msg) {
+		// 		$("#header").html(msg);
+		// 	}
+		// })
+		// $.ajax({
+		// 	url: "common/footer.html",
+		// 	dataType: "html",
+		// 	async: false,
+		// 	success: function(msg) {
+		// 		$("#footer").html(msg);
+		// 	}
+		// })
+	</script>
+	<script src="../lib/cart.js"></script>
+</body>
+</html>

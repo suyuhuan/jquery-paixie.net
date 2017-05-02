@@ -1,0 +1,201 @@
+ [{
+   "tier":"f1",
+   "data":[
+      {
+       "title":"运动鞋",
+       "content":[
+                 {
+            "id": 1,
+            "name": "康踏男子低帮系带减震轻质跑",
+            "price": 149,
+            "img": "../img/index/F101.jpg"
+          },
+          {
+            "id": 2,
+            "name": "NewBanlance新百伦574系列男",
+            "price": 499,
+            "img": "../img/index/F102.jpg"
+          },
+          {
+            "id": 3,
+            "name": "NewBanlance新百伦996系列男",
+            "price": 569,
+            "img": "../img/index/F103.jpg"
+          },
+          {
+            "id": 4,
+            "name": "新百伦999玩味轻烧Elite男女低",
+            "price": 749,
+            "img": "../img/index/F104.jpg"
+          },
+          {
+            "id": 5,
+            "name": "乔丹网面透气男子低帮系带耐",
+            "price": 139,
+            "img": "../img/index/F105.jpg"
+          },
+          {
+            "id": 6,
+            "name": "领舞者春夏新款透气情侣休闲运",
+            "price": 139,
+            "img": "../img/index/F106.jpg"
+          },
+          {
+            "id": 7,
+            "name": "八哥新款慢跑鞋网面跑步鞋男秋",
+            "price": 159,
+            "img": "../img/index/F107.jpg"
+          },
+          {
+            "id": 8,
+            "name": "NewBalance新百伦 红衫林系",
+            "price": 538,
+            "img": "../img/index/F108.jpg"
+          },
+          {
+            "id": 9,
+            "name": "鸿星尔克男板鞋/休闲鞋藏青",
+            "price": 109,
+            "img": "../img/index/F109.jpg"
+          },
+          {
+            "id": 10,
+            "name": "李宁3Km女子简单大方低帮",
+            "price": 169,
+            "img": "../img/index/F110.jpg"
+          }
+       ]
+      },
+      {
+      "title":"运动服",
+      "content":[
+      {
+    "id": 11,
+    "name": "361度综训系列简约合体百搭男",
+    "price": 89,
+    "img": "../img/index/F111.jpg"
+  },
+  {
+    "id": 12,
+    "name": "361度男运动长裤黑",
+    "price": 79,
+    "img": "../img/index/F112.jpg"
+  },
+  {
+    "id": 13,
+    "name": "李宁跑步系列男子透气运动长",
+    "price": 129,
+    "img": "../img/index/F113.jpg"
+  },
+  {
+    "id": 14,
+    "name": "李宁篮球系列男子松紧休闲简",
+    "price": 109,
+    "img": "../img/index/F114.jpg"
+  },
+  {
+    "id": 15,
+    "name": "361度 女款保暖休闲松紧运动长",
+    "price": 119,
+    "img": "../img/index/F115.jpg"
+  },
+  {
+    "id": 16,
+    "name": "李宁跑步系列简单时尚男",
+    "price": 129,
+    "img": "../img/index/F116.jpg"
+  },
+  {
+    "id": 17,
+    "name": "李宁跑步系列男子透气运动长",
+    "price": 129,
+    "img": "../img/index/F117.jpg"
+  },
+  {
+    "id": 18,
+    "name": "李宁训练系列男子纯色简单时",
+    "price": 109,
+    "img": "../img/index/F118.jpg"
+  },
+  {
+    "id": 19,
+    "name": "古星夏季新款男士运动裤薄款七",
+    "price": 65,
+    "img": "../img/index/F119.jpg"
+  },
+  {
+    "id": 20,
+    "name": "贵人鸟 男子功能运动系列连帽",
+    "price": 219,
+    "img": "../img/index/F120.jpg"
+  }
+       ]
+      },
+      {
+      "title":"户外热卖",
+      "content":[
+       {
+    "id": 21,
+    "name": "东帝名坊2016夏季新品时尚夏",
+    "price": 49,
+    "img": "../img/index/F221.jpg"
+  },
+   {
+    "id": 22,
+    "name": "东帝名坊2016夏季新品时尚夏",
+    "price": 208,
+    "img": "../img/index/F222.jpg"
+  },
+   {
+    "id": 23,
+    "name": "东帝名坊2016夏季新品时尚夏",
+    "price": 238,
+    "img": "../img/index/F223.jpg"
+  },
+   {
+    "id": 24,
+    "name": "东帝名坊2016夏季新品时尚夏",
+    "price": 89,
+    "img": "../img/index/F224.jpg"
+  },
+   {
+    "id": 25,
+    "name": "东帝名坊2016夏季新品时尚夏",
+    "price": 48,
+    "img": "../img/index/F225.jpg"
+  },
+   {
+    "id": 26,
+    "name": "东帝名坊2016夏季新品时尚夏",
+    "price": 139,
+    "img": "../img/index/F226.jpg"
+  },
+   {
+    "id": 27,
+    "name": "东帝名坊2016夏季新品时尚夏",
+    "price": 52,
+    "img": "../img/index/F227.jpg"
+  },
+   {
+    "id": 28,
+    "name": "东帝名坊2016夏季新品时尚夏",
+    "price": 52,
+    "img": "../img/index/F228.jpg"
+  },
+   {
+    "id": 29,
+    "name": "东帝名坊2016夏季新品时尚夏",
+    "price": 149,
+    "img": "../img/index/F229.jpg"
+  },
+   {
+    "id": 30,
+    "name": "东帝名坊2016夏季新品时尚夏",
+    "price": 78,
+    "img": "../img/index/F230.jpg"
+  }
+       ]
+      }
+   ],
+   "fLeft":"../img/index/f1Left.jpg"
+  }]

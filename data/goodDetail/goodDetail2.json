@@ -1,0 +1,30 @@
+[
+  {
+  	"id":"1",
+  	"imgSmall1":"../img/goodDetail/id1/01.jpg",
+  	"imgSmall2":"../img/goodDetail/id1/02.jpg",
+  	"imgSmall3":"../img/goodDetail/id1/03.jpg",
+  	"imgSmall4":"../img/goodDetail/id1/04.jpg",
+  	"imgSmall5":"../img/goodDetail/id1/05.jpg"
+  },
+  {
+  	"id":"2",
+  	"imgSmall":"../img/goodDetail/id2/01.jpg",
+  	"imgSmall":"../img/goodDetail/id2/02.jpg",
+  	"imgSmall":"../img/goodDetail/id2/03.jpg",
+  	"imgSmall":"../img/goodDetail/id2/04.jpg",
+  	"imgSmall":"../img/goodDetail/id2/05.jpg",
+  	"imgSmall":"../img/goodDetail/id2/06.jpg"
+  },
+  {
+  	"id":"3",
+  	"imgSmall":"../img/goodDetail/id3/01.jpg",
+  	"imgSmall":"../img/goodDetail/id3/02.jpg",
+  	"imgSmall":"../img/goodDetail/id3/03.jpg",
+  	"imgSmall":"../img/goodDetail/id3/04.jpg",
+  	"imgSmall":"../img/goodDetail/id3/05.jpg",
+  	"imgSmall":"../img/goodDetail/id3/06.jpg",
+  	"imgSmall":"../img/goodDetail/id3/06.jpg"
+  }
+
+]

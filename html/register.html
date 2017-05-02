@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/register.css">
+</head>
+<body>
+	<div id="header2">
+		<div class="logos">
+			<a href="#" class="logo"></a>
+			<h2>欢迎注册</h2>
+		</div>
+	</div>
+	<div id="main">
+		<div class="regContent">
+			<div class="regForm fl">
+				<form action="login.html" method="post">
+					<div class="input">
+						<label for="name">用户名:</label>
+						<input type="text" placeholder="手机号/邮箱" name="userName">
+						<span class="txtUser">*</span>
+					</div>	
+					<div class="input">
+						<label for="pwd">设置密码:</label>
+						<input type="password" placeholder="请输入密码" name="password">
+						<span class="txtPwd">*</span>
+					</div>
+					<div class="input i2">
+						<label for="rpwd">确认密码:</label>
+						<input type="password" placeholder="请输入密码" name="repassword">
+						<span class="txtRpwd">*</span>
+					</div>
+					<div class="check">
+						<input type="checkbox" name="" id="" value="" />
+						<span>我已阅读并同意</span>
+						<a href="#">《拍鞋服务协议》</a>
+					</div>
+					<div class="submit">
+						<input type="submit" value="立即注册" class="reg">
+					</div>
+				</form>
+			</div>
+			<div class="regRight fl">
+				<p>我已有拍鞋网账户</p>
+				<p>现在就<a href="login.html" class="logBtn">立即登录</a></p>
+			</div>
+		</div>
+	</div>
+	<div id="footer2">
+		<p>Copyright © 2007-2016 Paixie.net All Rights Reserved 增值电信业务经营许可证：闽B2-20110084
+       </p>
+	</div>
+
+	<script src="../lib/jquery-1.12.3.js"></script>
+	<script src="../lib/jquery.cookie.js"></script>
+	<script src="../js/common.js"></script>
+	<script>
+//		loadHtml("common/hearder.html", "header2");
+//		loadHtml("common/footer.html", "footer2");
+		// $.ajax({
+		// 	url: "common/hearder.html",
+		// 	dataType: "html",
+		// 	async: false,
+		// 	success: function(msg) {
+		// 		$("#header").html(msg);
+		// 	}
+		// })
+		// $.ajax({
+		// 	url: "common/footer.html",
+		// 	dataType: "html",
+		// 	async: false,
+		// 	success: function(msg) {
+		// 		$("#footer").html(msg);
+		// 	}
+		// })
+	</script>
+	<script src="../js/register.js"></script>
+</body>
+</html>

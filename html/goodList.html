@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>商品详情</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/goodList2.css">
+</head>
+<body>
+	<!-- 右侧栏 -->
+	<div id="rSidebar">
+		<div class="sideTop">
+			<a href="" class="rTa"><i class="rTa0 active"></i><span>购物车<b>0</b></span></a>
+			<a href="" class="rTb"><i class="rTb0"></i></a>
+			<a href="" class="rTc"><i class="rTc0"></i></a>
+			<a href="" class="rTd"><i class="rTd0"></i></a>
+		</div>
+		<div class="sideBottom">
+			<a href="" class="rTe"><i class="rTe0"></i></a>
+			<a href="" class="rTf"><i class="rTf0"></i></a>
+		</div>
+	</div>
+	<div id="header"></div>	
+	<!-- 主体区 -->
+	<div id="main">
+		<div class="location">
+			<a href="" title="">首页</a>
+			<span>&gt;</span>
+			<a href="" title="">所有分类</a> 											
+ 			<span>&gt;</span>
+ 			<a href="#" title class="del">N字鞋</a>
+		</div>
+		<div class="filternav" id="js_filternav" style="border-bottom: 0px;">
+		    <div class="cate brand" id="js_filtebrand">
+				<b>品<span class="pl2e">牌</span>：</b>
+				<div class="options">
+					<a class="multiple" href="#" id="js_multiple">多选</a>
+				</div>
+				<div class="catecont" rel="28">
+					<div class="searchbrand"><input class="brandkey" value="" id="brandkey" placeholder="输入您要查找的品牌：如安踏"></div>
+					<div id="sbtip" class="sbtip"></div>
+					<ul newurl="/forbid/p-==_N%E5%AD%97%E9%9E%8B__1.html" rel="brand" id="js_brandlist">
+						<li rel="0">
+							<a title="东帝名坊" href="/forbid/p-dodi_N字鞋__1.html">东帝名坊(2)</a>
+							<i rel="dodi">东帝名坊dodid</i>
+						</li>
+						<li rel="1">
+							<a title="领舞者" href="/forbid/p-lingwuzhe_N字鞋__1.html">领舞者(5)</a>
+							<i rel="lingwuzhe">领舞者lingwuzhel</i>
+						</li>
+						<li rel="2">
+							<a title="吉吉猴" href="/forbid/p-jijihou_N字鞋__1.html">吉吉猴(3)</a>
+							<i rel="jijihou">吉吉猴jijihouj</i>
+						</li>
+					</ul>
+					<div class="sbsubmit">
+						<input type="button" value="确定" rel="" class="sb_ok sb_wait">
+						<input type="button" value="取消" class="sb_cancel">
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="cate ">
+				<b>款<span class="pl2e">式</span>：</b>
+					<div class="options">
+				</div>
+					<div class="catecont" rel="28">
+					<ul>
+						<li>
+							<a class="catecont_key" tag_type="" seach_id="22" href="/forbid/p-_N字鞋_s000022_1.html" title="运动休闲鞋">运动休闲鞋(4)</a>
+						</li>
+						<li>
+							<a class="catecont_key" tag_type="" seach_id="25" href="/forbid/p-_N字鞋_s000025_1.html" title="板鞋/休闲鞋">板鞋/休闲鞋(1)</a>
+						</li>
+						<li>
+							<a class="catecont_key" tag_type="" seach_id="121" href="/forbid/p-_N字鞋_s000121_1.html" title="儿童运动鞋">儿童运动鞋(3)</a>
+						</li>
+						<li>
+							<a class="catecont_key" tag_type="" seach_id="135" href="/forbid/p-_N字鞋_s000135_1.html" title="女鞋/休闲鞋">女鞋/休闲鞋(2)</a>
+						</li>
+					</ul>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+		<div id="thenotext" style="height: 25px; display: block; width: 100%;"></div>
+		<div class="sortbar" id="sortpage">
+			<div class="sortrow">
+				<ul class="sortnav">
+					<li class="current"><a href="javascript:void(0)" onclick="return goodList.SetAsc('de');">默认排序</a></li>
+					<li><a href="javascript:void(0)" onclick="return goodList.SetAsc('re');">人气</a></li>
+					<li><a href="javascript:void(0)" onclick="return goodList.SetAsc('id');">新品</a></li>
+					<li>
+						<a href="javascript:void(0)">销量<i></i></a>
+						<p>
+							<a href="javascript:void(0)" onclick="return goodList.SetAsc('sd');return false">销量从高到低</a>
+							<a href="javascript:void(0)" onclick="return goodList.SetAsc('sa');">销量从低到高</a>
+						</p>
+					</li>
+					<li>
+						<a href="javascript:void(0)">价格<i></i></a>
+						<p>
+							<a href="javascript:void(0)" onclick="return goodList.SetAsc('pd');">价格从高到低</a>
+							<a href="javascript:void(0)" onclick="return goodList.SetAsc('pa');">价格从低到高</a>
+						</p>
+					</li>
+				</ul>
+				<div class="price">
+					<div>
+						<input type="text" value="" placeholder="￥" id="pricemin">
+						<span>-</span>
+						<input type="text" value="" placeholder="￥" id="pricemax">
+						<p>
+							<input type="button" value="清空" class="clear" id="priceclear">
+							<span></span>
+							<input type="button" value="确定" class="submit" id="pricesubmit">
+						</p>
+					</div>
+				</div>
+					<div class="pager"> 
+						<span class="prev">上一页</span>
+						<span class="total"><b>1</b>/1</span>
+						<span class="next">下一页</span>
+					</div>	
+				<div class="clear"></div>	
+			</div>
+			<ul class="filterrow">
+				<li rel="c">货到付款</li>
+				<li rel="s">限时促销</li>
+				<li rel="p">会员特价</li>
+				<li rel="t">团购</li>
+			</ul>
+		</div>
+   		<ul class="prolist" id="js_good" style="margin:0 auto;">
+        	<!-- <li>
+				<div class="probox">
+					<a target="_blank" href="#" class="img289" style="background-image: none;">
+						<dfn></dfn>
+						<img onerror="this.src='http://ued.paixie.net/images/error/220220.jpg'" src="http://img3.paishoes.com/dodi/ddmxf/201607/18/c7c660a285_thumb_220220.jpg" style="opacity: 1;">
+					</a>
+					<div class="imglist">
+						<span class="prev no"></span>
+						<div>
+							<ul>
+								<li class="current" url="#1" pic="http://img3.paishoes.com/dodi/ddmxf/201604/22/9eba620745.jpg">
+									<img src="http://img3.paishoes.com/dodi/ddmxf/201604/22/9eba620745.jpg" imgsrc="http://img3.paishoes.com/dodi/ddmxf/201604/22/9eba620745.jpg">
+								</li>
+								<li url="#2" pic="http://img3.paishoes.com/dodi/ddmxf/201501/12/38c14136ca.jpg">
+									<img src="http://img3.paishoes.com/dodi/ddmxf/201501/12/38c14136ca.jpg" imgsrc="http://img3.paishoes.com/dodi/ddmxf/201501/12/38c14136ca.jpg">
+								</li>
+								<li url="#3" pic="http://img3.paishoes.com/dodi/ddmxf/201501/12/38bf014984.jpg">
+									<img src="http://img3.paishoes.com/dodi/ddmxf/201501/12/38bf014984.jpg" imgsrc="http://img3.paishoes.com/dodi/ddmxf/201501/12/38bf014984.jpg">
+								</li>
+								<li url="#4" pic="http://img3.paishoes.com/dodi/ddmxf/201501/12/38bf9a7708.jpg">
+									<img src="http://img3.paishoes.com/dodi/ddmxf/201501/12/38bf9a7708.jpg" imgsrc="http://img3.paishoes.com/dodi/ddmxf/201501/12/38bf9a7708.jpg">
+								</li>
+								<li url="#5" pic="http://img3.paishoes.com/dodi/ddmxf/201501/12/38bf45c5d2.jpg">
+									<img src="http://img3.paishoes.com/dodi/ddmxf/201501/12/38bf45c5d2.jpg" imgsrc="http://img3.paishoes.com/dodi/ddmxf/201501/12/38bf45c5d2.jpg">
+								</li>
+								<li url="#6" pic="http://img3.paishoes.com/dodi/ddmxf/201501/12/38bfcf0ed0.jpg">
+									<img src="http://img3.paishoes.com/dodi/ddmxf/201501/12/38bfcf0ed0.jpg" imgsrc="http://img3.paishoes.com/dodi/ddmxf/201501/12/38bfcf0ed0.jpg">
+								</li>
+							</ul>
+						</div>
+						<span class="next"></span>
+					</div>
+					<div class="info">
+						<span class="oof">￥</span>
+						<b>98.00</b>
+						<del class="oof">￥438.00</del>
+						<p class="title">					
+							<a target="_blank" href="/shoe-dodi-55125-900219.html">东帝名坊2015春季N字鞋女内增高女运动鞋女款休闲鞋女防水台女鞋</a>
+						<p class="shop">
+							<a href="javascript:void(0)" target="_blank" data-forbid="http://mall30273.paixie.net">东帝名坊旗舰店</a>
+						</p>
+						<p class="tag">
+							<span>满减</span>
+						</p>
+					</div>
+
+				</div>
+			</li> -->
+        	
+			
+		</ul>
+		<div class="clear"></div>
+		<div class="page" id="js_page">			
+			<span class="prev">&nbsp;</span>								
+			<span class="current">1</span>
+			<span class="next">&nbsp;</span>		
+		</div>
+		<div class="hotsearchbrand">
+			热门搜索品牌：
+			<a seach_id="13" href="/adidas">
+				<b>阿迪达斯</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="15" href="/nike">
+				<b>耐克</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="17" href="/peak">
+				<b>匹克</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="19" href="/361sport">
+				<b>361度</b>
+			</a>&nbsp;|&nbsp;&nbsp;
+			<a seach_id="21" href="/converse">
+				<b>匡威</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="23" href="/li-ning">
+				<b>李宁</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="27" href="/xtep">
+				<b>特步</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="29" href="/qiaodan">
+				<b>乔丹</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="31" href="/anta">
+				<b>安踏</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="33" href="/fgn">
+				<b>富贵鸟</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="35" href="/playboy">
+				<b>花花公子</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="37" href="/erke">
+				<b>鸿星尔克</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="39" href="/newbalance">
+				<b>新百伦</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="43" href="/grn-group">
+				<b>贵人鸟</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="49" href="/vans">
+				<b>VANS</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="51" href="/puma">
+				<b>彪马</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="53" href="/reebok">
+				<b>锐步</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="95" href="/originals">
+				<b>三叶草</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="97" href="/umbro">
+				<b>茵宝</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="99" href="/voit">
+				<b>沃特</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="299" href="/diadora">
+				<b>迪亚多纳</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="301" href="/toread">
+				<b>TOREAD</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="303" href="/merrto">
+				<b>迈途</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="305" href="/mulinsen">
+				<b>木林森</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="307" href="/doublestar">
+				<b>双星</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="309" href="/saiqi">
+				<b>赛琪</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="311" href="/xdlong">
+				<b>喜得龙</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="313" href="/warrior">
+				<b>回力</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="315" href="/kroten">
+				<b>瑞蛙</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="317" href="/native">
+				<b>native</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="319" href="/bage">
+				<b>八哥</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="321" href="/baopiao">
+				<b>宝飘</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="323" href="/lotto">
+				<b>乐途</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="325" href="/senma">
+				<b>森马</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="383" href="/aifusen">
+				<b>艾弗森</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="385" href="/campaign">
+				<b>骆驼队长</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="387" href="/lingwuzhe">
+				<b>领舞者</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="389" href="/feelploneer">
+				<b>探路先锋</b>
+			</a>
+			&nbsp;|&nbsp;&nbsp;
+			<a seach_id="391" href="/serene">
+				<b>西瑞</b>
+			</a>
+			&nbsp;
+		</div>
+		<div class="bottom_explain">
+				<h1>N字鞋网上专卖店</h1>: 拍鞋网N字鞋网上专卖店在线销售2016新款正品N字鞋，专业提供正品N字鞋价格、图片、参数、买家评价等信息。全场正品保证、假一赔十，支持15天无理由退换货，更有天天特价，正品N字鞋低至1折起，买正品特价N字鞋就上拍鞋网N字鞋网上专卖店！
+		</div>
+	<!-- 正品保证 -->
+	<div id="ensure">
+		<div class="enContent">
+			<span style="width:250px;">
+				<i class="gua1"></i>
+				<a href="">正品保证 假一赔十</a>
+			</span style="">
+			<span style="width:244px;">
+				<i class="gua2"></i>
+				<a href="">货到付款 全国范围</a>
+			</span>
+			<span style="width:253px;">
+				<i class="gua3"></i>
+				<a href="">10天保值 差价返还</a>
+			</span>
+			<span style="width:215px;">
+				<i class="gua4"></i>
+				<a href="">满129元包邮</a>
+			</span>
+			<span>
+				<i class="gua5"></i>
+				<a href="">15天无理由 免邮退换货</a>
+			</span>
+		</div>
+	</div>
+	<div id="footer"></div>
+
+	<script src="../lib/jquery-1.12.3.js"></script>
+	<script src="../lib/jquery.cookie.js"></script>
+	<script src="../lib/TweenMax.js"></script>
+	<script src="../js/common.js"></script>
+
+
+
+			
+
+
+
+	<script>
+			loadHtml("common/hearder.html", "header");
+			loadHtml("common/footer.html", "footer");
+	</script>
+	<script src="../js/goodList.js"></script>
+</body>
+</html>

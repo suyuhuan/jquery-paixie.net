@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+	<div id="header2">
+		<div class="logos">
+			<a href="index.html" class="logo"></a>
+			<h2>欢迎登录</h2>
+		</div>
+	</div>
+	<div id="main">
+		<div class="logContent">
+			<a href="">
+				<img src="../img/login/logImg.jpg" alt="">
+			</a>
+			<div class="logForm">
+				<p>
+					<strong>登录拍鞋平台</strong>
+					<span>还没有拍鞋网账号？</span>
+					<a href="register.html">免费注册</a>
+				</p>
+				<form action="index.html" method="get">
+					<div class="input">
+						<i class="use"></i>
+						<input type="text" placeholder="手机号/邮箱" name="userName" class="user">
+						<span class="userTxt">*</span>
+					</div>
+					<div class="input">
+						<i class="pas"></i>
+						<input type="password" placeholder="请输入密码" name="passWord" class="pwd">
+						<span class="pwdTxt">*</span>
+					</div>
+					<div>
+						<input type="checkbox" name="" id="" value="" />
+						<span>下次自动登录</span>
+						<a href="#" class="fr">忘记密码？</a>
+					</div>
+					<div class="submit">
+						<input type="submit" value="立即登录" class="login">
+					</div>
+				</form>
+					<p>你可以使用以下账号登录:</p>
+					<div class="linker">
+						<a href="#" class="qq"></a>
+						<a href="#" class="alipay"></a>
+						<a href="#" class="sina"></a>
+						<a href="#" class="renren"></a>
+						<a href="#" class="netease"></a>
+						<a href="#" class="xunlei"></a>
+						<a href="#" class="baidu"></a>
+						<a href="#" class="qh360"></a>
+						<a href="#" class="weixin"></a>
+						<a href="#" class="wanlitong"></a>
+					</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer2">
+		<p>Copyright © 2007-2016 Paixie.net All Rights Reserved 增值电信业务经营许可证：闽B2-20110084
+       </p>
+	</div>
+
+	<script src="../lib/jquery-1.12.3.js"></script>
+	<script src="../lib/jquery.cookie.js"></script>
+	<script src="../js/common.js"></script>
+	<script>
+//		loadHtml("common/hearder.html", "header2");
+//		loadHtml("common/footer.html", "footer2");
+		// $.ajax({
+		// 	url: "common/hearder.html",
+		// 	dataType: "html",
+		// 	async: false,
+		// 	success: function(msg) {
+		// 		$("#header").html(msg);
+		// 	}
+		// })
+		// $.ajax({
+		// 	url: "common/footer.html",
+		// 	dataType: "html",
+		// 	async: false,
+		// 	success: function(msg) {
+		// 		$("#footer").html(msg);
+		// 	}
+		// })
+	</script>
+	<script src="../js/login.js"></script>
+</body>
+</html>

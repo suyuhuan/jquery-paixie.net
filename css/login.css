@@ -1,0 +1,17 @@
+body{background-color:#f5f5f5;font-family:"微软雅黑"}
+a{color:#668686;}
+
+.logContent{width: 846px;padding:42px 62px 60px 70px;border: 1px solid #dadada;margin:0 auto;background-color: #fff;border-radius:3px;}
+.logForm{float: right;width: 290px;}
+.logForm p{padding-bottom:11px;}
+.logForm p strong{font-size:15px;font-weight:normal;}
+.logForm p span{color:#b7b7b7;margin-left: 34px;font-size:12px;}
+
+.logForm .input,.submit{width: 292px;height:36px;border:1px solid #DADADA;margin-bottom: 28px;}
+.logForm .input input{width:90%;height: 90%;padding:2px;}
+.logForm .input span{color:red;padding-top:5px;display:none;}
+.logForm .input  i{display:block;margin-top: 10px;margin-left: 5px;float:left;}
+.logForm  .submit{margin-top:16px;}
+.logForm  .submit input{cursor:pointer;background-color: #ff6600;display:block;width:100%;height: 100%;color: #fff;text-align:center;line-height:36px;border-radius: 2px;font-size:14px;}
+.logForm  .linker a{margin-right: 5px;}
+
